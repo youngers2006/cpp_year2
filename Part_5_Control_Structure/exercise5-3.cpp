@@ -29,14 +29,14 @@ int main() {
 
 double approx_1(int n) {
     double pi_approx = 0.0;
-    for (int k = 0; k < n; ++k) {
+    for (int k = 0; k < n+1; ++k) {
             pi_approx += (4.0 * pow(-1, k) / (2.0 * k + 1.0));
         }
     return pi_approx;
 }
 double approx_2(int n) {
     double pi_approx = 2.0;
-    for (int k = 1; k < n; ++k) {
+    for (int k = 1; k < n+1; ++k) {
         pi_approx *= (4.0 * pow(k, 2)) / (4.0 * pow(k, 2) - 1.0);
     }
     return pi_approx;
