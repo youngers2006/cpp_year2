@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 
+// define functions
 double ln_approx(double y, int N);
 double cosh_inv_approx(double x, int N);
 
