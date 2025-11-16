@@ -30,7 +30,7 @@ namespace program {
                     vIt_j--;
                 }
                 data_vec.insert(vIt_j, *vIt_i);
-            }
+            } 
             return data_vec;
         }
     }
